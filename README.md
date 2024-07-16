@@ -1,5 +1,7 @@
 # banner_DONGUK777
 
+*install*
+
 **사용법**
 ```
 $ show-banner
