@@ -18,3 +18,8 @@ show-banner = 'banner_donguk777.banner:show'
 
 [tool.pdm]
 distribution = true
+
+[project.urls]
+Homepage = "https://github.com/DONGUK777/banner_DONGUK777"
+Issues = "https://github.com/DONGUK777/banner_DONGUK777/issues"
+
