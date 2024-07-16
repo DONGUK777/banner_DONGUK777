@@ -1,43 +1,45 @@
 # banner_DONGUK777
 
-## **Usage**
+## **사용방법**
 
-You can use pyfiglet in one of two ways. First, it operates on the
-commandline as C figlet does and supports most of the same options.
-Run with `--help` to see a full list of tweaks.  Mostly you will only
-use `-f` to change the font. It defaults to standard.flf.
-
-`tools/pyfiglet 'text to render'`
-
-### Pyfiglet is also a library that can be used in python code:
+**방법 1.**
 
 ```py
 from pyfiglet import Figlet
 f = Figlet(font='slant')
 print(f.renderText('text to render'))
-```
+```  
+  
 
-or
+
+**방법 2.**
 
 ```py
 import pyfiglet
 f = pyfiglet.figlet_format("text to render", font="slant")
 print(f)
 ```
-If you have found some new fonts that you want to use, you can use the
-command line interface to install your font file as follows:
+  
+  
+
+**글꼴 파일 설치 방법**
 
 `pyfiglet -L <font file>`
 
-The font file can be a ZIP file of lots of fonts or just a single font.
-Depending on how you installed pyfiglet, you may find that you need
-root access to install the font - e.g. `sudo pyfiglet -L <font file>`.
+pyfiglet을 설치한 방법에 따라 글꼴을 설치하려면 루트 액세스가 필요할 수 있다.  
+ex) `sudo pyfiglet -L <font file>`.
+  
+## **설치 방법**  
 
-
+```py
+$ pip install banner_DONGUK777
+```  
+  
 **사용법**
 ```
 $ show-banner
 ```
+  
 **결과**
 ```
     ____  ____  _   __________  ____ __
