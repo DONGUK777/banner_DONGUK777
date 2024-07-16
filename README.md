@@ -7,11 +7,11 @@
 
 ## **설치 방법**  
 
-```py
+```
 $ pip install banner_DONGUK777
 ```  
   
-**실행 방법 및 결과**
+# **실행 방법 및 결과**
   
 1. banner  
   
@@ -28,7 +28,7 @@ $ DONGUK777-banner
 2. pic  
 
 ```
-$DONGUK777-pic
+$ DONGUK777-pic
 
 
                                                             .......
@@ -93,7 +93,11 @@ $DONGUK777-pic
 ```
 $ DONGUK777-lotto
 [40, 26, 12, 33, 4, 8]
-```
 
-
-
+$ DONGUK777-lotto
+[25, 29, 33, 45, 42, 40]
+```  
+  
+  
+**출처**
+- https://github.com/pwaller/pyfiglet
