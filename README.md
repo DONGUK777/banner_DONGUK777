@@ -1,5 +1,13 @@
 # banner_DONGUK777
 
-from pyfiglet import Figlet
-f = Figlet(font='slant')
-print(f.renderText('text to render'))
+**사용법**
+$ show-banner
+
+**결과**
+    ____  ____  _   __________  ____ __
+   / __ \/ __ \/ | / / ____/ / / / //_/
+  / / / / / / /  |/ / / __/ / / / ,<
+ / /_/ / /_/ / /|  / /_/ / /_/ / /| |
+/_____/\____/_/ |_/\____/\____/_/ |_|
+
+
