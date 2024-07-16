@@ -12,7 +12,7 @@ requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 
-[project.script]
+[project.scripts]
 show-banner = 'banner_DONGUK777.banner:show'
 
 
